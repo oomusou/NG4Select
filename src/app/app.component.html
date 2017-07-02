@@ -1,4 +1,4 @@
-<select (change)="onChange($event)">
+<select (change)="onChange(mySelect)" #mySelect>
   <option *ngFor="let cloud of clouds" [value]="cloud.id">{{ cloud.name }}</option>
 </select>
 <p></p>
