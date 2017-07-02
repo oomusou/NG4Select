@@ -14,8 +14,4 @@ export class AppComponent {
   ];
 
   selectedId: number;
-
-  onChange(element: HTMLSelectElement) {
-    this.selectedId = +element.value;
-  }
 }
